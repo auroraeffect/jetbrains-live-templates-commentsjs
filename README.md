@@ -1,6 +1,6 @@
 # jetbrains-live-templates-commentsjs
 
-coding human readable code by using comment split code
+Coding human-readable code by using comment split code
 
 ## Install 
 
@@ -16,14 +16,16 @@ Example
 
 ## How to use it
 
-type `cmtline` and `Tab` to generate a comment line.
+Typing `cmtline` and `Tab` to generate a comment line.
 
 ```javascript
 /** 
  ================================================================ */
 ```
 
-then you can edit it to anything you like to split your code
+Then you can edit it to anything you like to split your code.
+
+Besides, I provide some commonly used code for you.
 
 ```javascript
 
@@ -43,9 +45,9 @@ cmtexport
 /** export ===================================================== */
 ```
 
-after you edited the code, it has more defined part and easy to read.
+After you edited the code, it has a clear structure and easy to read.
 
-like this
+Like this
 
 ```javascript
 import React, {useState} from "react";
@@ -72,3 +74,5 @@ const Hello = () => {
 
 export {Hello}
 ```
+
+Enjoy coding!
