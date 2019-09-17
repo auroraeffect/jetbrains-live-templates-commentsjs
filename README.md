@@ -64,12 +64,8 @@ const user = 'Stranger';
 const Hello = () => {
     const [word, setWord] = useState(user);
     
-    const handleClick = () => {
-        setWord('my friend')
-    };
-    
     return (
-        <div onClick={handleClick}>Hello {word}</div>
+        <div onClick={() => setWord('my friend')}>Hello {word}</div>
     )
 };
 
