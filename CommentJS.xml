@@ -41,4 +41,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="cmtinterface" value="/** interface ================================================== */&#10;" description="Add a line for interface" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
