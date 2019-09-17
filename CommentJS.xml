@@ -1,0 +1,44 @@
+<templateSet group="CommentJS">
+  <template name="cmtline" value="/** $END$&#10;================================================================ */&#10;" description="Add a comment line" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cmtconst" value="/** constant =================================================== */&#10;" description="Add a line for constant" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cmtmock" value="/** mockdata =================================================== */&#10;" description="Add a line for mock dage" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cmtcomp" value="/** &lt;$END$ /&gt;&#10;================================================================ */&#10;" description="Add a line for react component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cmtexport" value="/** export ===================================================== */&#10;" description="Add a line for export" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cmtfunc" value="/** function =================================================== */&#10;" description="Add a line for function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cmtsplit" value="-------------------------------------------------------------------&#10;$END$" description="Add a split line" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
