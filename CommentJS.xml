@@ -11,7 +11,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="cmtmock" value="/** mockdata =================================================== */&#10;" description="Add a line for mock dage" toReformat="true" toShortenFQNames="true">
+  <template name="cmtmock" value="/** mock data ================================================== */&#10;" description="Add a line for mock dage" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
