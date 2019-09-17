@@ -1,6 +1,6 @@
 # jetbrains-live-templates-commentsjs
 
-Coding human-readable code by using comment split code
+Coding human-readable code by using comment split code. It is support JavaScript and TypeScript.
 
 ## Install 
 
@@ -29,10 +29,13 @@ Besides, I provide some commonly used code for you.
 
 ```javascript
 
+cmtinterface
+/** interface ================================================== */
+
 cmtconst
 /** constant =================================================== */
 
-cmtdata
+cmtmock
 /** mockdata =================================================== */
 
 cmtfunc
