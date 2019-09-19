@@ -17,7 +17,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="cmtcomp" value="/** &lt;$END$ /&gt;&#10;================================================================ */&#10;" description="Add a line for react component" toReformat="true" toShortenFQNames="true">
+  <template name="cmtcomp" value="/** component ================================================== */&#10;" description="Add a line for react component" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
