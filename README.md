@@ -1,6 +1,6 @@
 # jetbrains-live-templates-commentsjs
 
-Coding human-readable code by using comment split code. It is support JavaScript and TypeScript.
+Coding human-readable code by using comment split code for Jerbrains IDE ie WebStorm and Idea . It is support JavaScript and TypeScript.
 
 ## Install 
 
@@ -60,7 +60,6 @@ import React, {useState} from "react";
 const user = 'Stranger';
 
 /** component ================================================== */
-
 
 /**
  * <Hello />
