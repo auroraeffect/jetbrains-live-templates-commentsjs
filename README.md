@@ -28,6 +28,7 @@ Then you can edit it to anything you like to split your code.
 Besides, I provide some commonly used code for you.
 
 ```javascript
+// for react app
 
 cmtinterface
 /** interface ================================================== */
@@ -46,6 +47,14 @@ cmtcomp
 
 cmtexport
 /** export ===================================================== */
+
+// for test
+
+cmtsetup
+/** setup ====================================================== */
+
+cmttest
+/** test ======================================================= */
 ```
 
 After you edited the code, it has a clear structure and easy to read.
