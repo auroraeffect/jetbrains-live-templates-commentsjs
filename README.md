@@ -1,6 +1,8 @@
 # jetbrains-live-templates-commentsjs
 
-Coding human-readable code by using comment split code for Jerbrains IDE ie WebStorm and Idea . It is support JavaScript and TypeScript.
+Coding human-readable code by using comment split code for Jerbrains IDE ie WebStorm and Idea.  It supports JavaScript and TypeScript.
+
+The project inspired by facebook's [f8app](https://github.com/fbsamples/f8app). Their [code](https://github.com/fbsamples/f8app/blob/master/js/login/LoginScreen.js) uses a lot of split lines to make the structure clear so that I can locate the key position when I read the code for the first time. As my project became more complex, I decided to refactor my code. Therefore I built this tool.
 
 ## Install 
 
