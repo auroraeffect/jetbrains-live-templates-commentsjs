@@ -59,4 +59,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="cmtmain" value="/** main ======================================================= */&#10;" description="Add a comment line for main function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
