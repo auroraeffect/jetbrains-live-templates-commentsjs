@@ -28,7 +28,7 @@ Then you can edit it to anything you like to split your code.
 Besides, I provide some commonly used code for you.
 
 ```javascript
-// for react app
+// for react app and nodejs
 
 cmtinterface
 /** interface ================================================== */
@@ -47,6 +47,9 @@ cmtcomp
 
 cmtexport
 /** export ===================================================== */
+
+cmtmain
+/** main ======================================================= */
 
 // for test
 
