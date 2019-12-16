@@ -34,6 +34,18 @@ Besides, I provide some commonly used code for you.
 ```javascript
 // for react app and nodejs
 
+cmtoverview
+/**
+ * @fileoverview $DESCRIPTION$
+ * @author $AUTHOR$
+ * @lastModify $AUTHOR$ $DATE$ $CHANGELOG$ $END$
+ */
+ 
+cmtmodify
+/**
+ * @lastModify $AUTHOR$ $DATE$ $CHANGELOG$
+ */
+
 cmtinterface
 /** interface ================================================== */
 
