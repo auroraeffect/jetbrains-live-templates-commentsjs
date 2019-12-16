@@ -71,4 +71,23 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="cmtoverview" value="/**&#10; * @fileoverview $DESCRIPTION$&#10; * @author $AUTHOR$&#10; * @lastModify $AUTHOR$ $DATE$ $CHANGELOG$ $END$&#10; */&#10;" description="Add a comment for file overview" toReformat="true" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AUTHOR" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CHANGELOG" expression="" defaultValue="change log" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cmtmodify" value="/**&#10; * @lastModify $AUTHOR$ $DATE$ $CHANGELOG$&#10; */&#10;$END$&#10;&#10;&#10;&#10;" description="Add a comment for file modify" toReformat="true" toShortenFQNames="true">
+    <variable name="AUTHOR" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CHANGELOG" expression="" defaultValue="change log" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
